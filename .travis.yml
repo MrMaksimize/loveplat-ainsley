@@ -6,9 +6,9 @@ node_js:
 deploy:
   provider: heroku
   api_key:
-    secure: SAMPLE
-  app: loveplatform
+    secure: idbGpOvsOUnjOqhQxlpSbJYgTDQ837mY9nKZv79BCRj+h0yTYCwRHdxApUq8zRsuFjUiLyYRNF+sotm9JAjIZOLtwfR1TditAXyqaNPj+9LUWW0D9jWhGF9T5z7cg0zh3ojEW4V2DWpmV28ZuaJg3pLT6iYMOgunDX+U7lUVQT8=
+  app: ainsleyperfect
   on:
-    repo: MrMaksimize/lovePlatform
+    repo: MrMaksimize/loveplat2
   run:
     - restart
