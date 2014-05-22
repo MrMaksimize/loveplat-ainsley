@@ -43,6 +43,13 @@ body {
   margin: -15px 15px -15px 0;
 }
 
+.navbar-nav {
+    float: right;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #FFFFFF;
+}
+
 .navbar-brand {
   background-image: url(../img/logo_heart.png);
   background-repeat: no-repeat;
@@ -50,6 +57,41 @@ body {
   background-position: left center;
   margin-left: 15px;
   height: 45px;
+}
+
+.navbar {
+	min-height: 60px;
+}
+
+.navbar-default {
+	background-color: #CD81ED;
+}
+
+.navbar-nav li a {
+	padding-top: 19.5px;
+}
+
+.navbar-default .navbar-brand {
+	color: #fff;
+}
+
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus, .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: #E1FFFD;
+}
+
+.navbar-brand {
+	height: 60px;
+	line-height: 33px;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #FFFFFF;
+}
+.navbar-default .navbar-toggle {
+    border-color: #FFFFFF;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: rgba(255, 255, 255, 0.15);
 }
 
 // Social Buttons
@@ -168,31 +210,6 @@ body {
       font-size: 0.7em;
       text-transform: none;
     }
-}
-
-.navbar {
-	min-height: 60px;
-}
-
-.navbar-default {
-	background-color: #CD81ED;
-}
-
-.navbar-nav li a {
-	padding-top: 19.5px;
-}
-
-.navbar-default .navbar-brand {
-	color: #fff;
-}
-
-.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
-    color: #E1FFFD;
-}
-
-.navbar-brand {
-	height: 60px;
-	line-height: 33px;
 }
 
 #sharer-modal {
