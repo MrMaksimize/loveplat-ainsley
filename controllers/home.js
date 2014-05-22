@@ -3,6 +3,7 @@ var Note = require('../models/Note');
 
 module.exports = function(app) {
   app.get('/', index);
+  app.get('/page/:name', page);
 };
 /**
  * GET /
@@ -15,4 +16,16 @@ var index = function(req, res) {
        config: req.appConfig
     });
   });
+};
+
+var page = function(req, res) {
+  if (_.contains([
+    'ainsleybeyonce',
+    'coquiainsley'
+    ], req.params.name)) {
+    return res.render('pages/' + req.params.name, {
+      config: req.appConfig
+    });
+  }
+  res.render('404');
 };
