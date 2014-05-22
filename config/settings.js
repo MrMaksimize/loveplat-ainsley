@@ -1,6 +1,6 @@
 module.exports = {
   title: 'Ainsley Perfect',
-  heading: 'I Love Ainsley Because...',
+  heading: 'I Love Ainsley because...',
   shareUrl: 'http://bit.ly/loveplatform',
   form: {
     textLabel: 'Message',
@@ -15,7 +15,7 @@ module.exports = {
     tweeting: false,
   },
   twitter: {
-    shareText: 'I love Ainsley Because',
+    shareText: 'I love Ainsley because',
     shareHash: '#ainsleyperfect',
   },
   fb: {
